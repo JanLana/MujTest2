@@ -9,13 +9,13 @@ public class MyMinTest {
     @Test
     public void testPositive() {
         int out = MyMin.min(1, 2);
-        Assertions.assertEquals(1, out);
+        assertEquals(1, out);
     }
 
     @Test
     public void testNegative() {
         int out = MyMin.min(-1, -2);
-        Assertions.assertEquals(-2, out);
+        assertEquals(-2, out);
     }
 
        @Test
