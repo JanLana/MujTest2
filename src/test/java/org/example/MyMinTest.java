@@ -17,4 +17,10 @@ public class MyMinTest {
         int out = MyMin.min(-1, -2);
         assertEquals(-2, out);
     }
+
+       @Test
+    public void testNegativeBroken() {
+        int out = MyMin.min(-1, -2);
+        assertEquals(-3, out);
+    }
 }
